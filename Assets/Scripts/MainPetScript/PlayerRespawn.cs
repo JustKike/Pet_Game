@@ -29,7 +29,8 @@ public class PlayerRespawn : MonoBehaviour
 
     public void PlayerDamaged()
     {
-        animator.Play("BloodHit", 0, 0.25f);
+        //animator.Play("BloodHit", 0, 0.25f);
+        animator.SetTrigger("Hit");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 

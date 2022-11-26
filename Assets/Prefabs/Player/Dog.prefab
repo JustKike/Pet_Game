@@ -583,6 +583,7 @@ GameObject:
   - component: {fileID: 5990751506663871554}
   - component: {fileID: 5990751506663871558}
   - component: {fileID: 5993168139062484433}
+  - component: {fileID: 8989500805122333247}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Player
@@ -688,7 +689,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5991586564246761332}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c764b352fff633d40803e6edd05a1ec6, type: 3}
   m_Name: 
@@ -714,6 +715,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5940474690678508490}
+--- !u!114 &8989500805122333247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5991586564246761332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43d887e19e1b834b87d56bbd36fe997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runSpeed: 2
+  jumpSpeed: 3
+  doubleJumpSpeed: 2.5
+  betterJump: 0
+  fallMultiplier: 0.5
+  lowJumpMultiplier: 1
+  y: 0
+  animator: {fileID: 0}
 --- !u!1 &5991859671935880182
 GameObject:
   m_ObjectHideFlags: 0
