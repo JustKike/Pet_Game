@@ -8,6 +8,7 @@ public class PlayerRespawn : MonoBehaviour
 
     private float checkPointPositionX, checkPointPositionY;
     public Animator animator;
+    public ParticleSystem DamageHit;
 
 
     void Start()
@@ -29,9 +30,12 @@ public class PlayerRespawn : MonoBehaviour
 
     public void PlayerDamaged()
     {
-        //animator.Play("BloodHit", 0, 0.25f);
+        //animator.Play("Damage", 0, 0.25f);
         animator.SetTrigger("Hit");
+        DamageHit.Play();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
+
 
 }

@@ -1161,7 +1161,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -1173,7 +1173,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -1185,7 +1185,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -1197,7 +1197,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
@@ -1209,7 +1209,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
@@ -1221,7 +1221,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -8754,12 +8754,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wall_concrete_grey_left: -1316722232655972009
+      Bushes_left: 8556087836613705275
       ShortGrass_left: 2116544386256860699
       Corner_yellow_left_shadow_top: -9044197696626046704
       Train_bottom_left: 5788546110184460075
       TrainTunnel_right_base_mask: -2978029296023439424
-      Bushes_top_bg: -2468124672112292691
       WhiteFence_right: 8828519746340871591
       GrassGround_road_left: 2714393274239944829
       RoofTiles_red: 173558590687706711
@@ -8897,12 +8896,12 @@ TextureImporter:
       Roof_tiles_old_red_bottom_center: -963349352152548105
       Train_roof_left: -2941751508124708280
       StoneBase_old_center: 7701882928101729861
-      Roof_hay_bottom_center: 5425751825141479403
-      Door_farm_house_closed: -1981414964759424508
-      Roof_hay_bottom_right: 254686568411360778
       Barrel_oil_side: -7577954240517538789
-      Metal_girders_end_right: 1295381554161534851
+      Door_farm_house_closed: -1981414964759424508
+      Roof_hay_bottom_center: 5425751825141479403
       Railing_cyan_center: 274085410051170030
+      Metal_girders_end_right: 1295381554161534851
+      Roof_hay_bottom_right: 254686568411360778
       Train_station_cover_beam: -6261297798527551047
       Roof_hay_base: 8473502404924841788
       TrainTunnel_right_base: -6494050099210859153
@@ -8932,8 +8931,8 @@ TextureImporter:
       AC_unit_1_2: -1999202811715610449
       Chimney_yellow_bottom: -7025747328906985020
       Wall_concrete_grey_damaged_1: 5160779324381834900
-      Wall_concrete_grey_right_shadow: -4992367902035916685
       Roof_tiles_old_red_bottom_right: 956433815436732014
+      Wall_concrete_grey_right_shadow: -4992367902035916685
       Roof_sheet_metal_bottom: 5449148177780995379
       Clouds_wide_2: -252436355482961741
       StoneBase_1: 8895951669746107334
@@ -8949,12 +8948,12 @@ TextureImporter:
       Window_big_arch: -2739412810797108222
       Platform_pillar: -7543395924298651528
       StoneBase_old_left: 8658540253421020638
-      Fancy_outdoor_closed: 3000110185026217935
-      Smoke_4: 7674693441881433481
-      Poster_wanted: 7434005222291134750
       Train_door_open_2: -1778125996455780473
+      Smoke_4: 7674693441881433481
+      Fancy_outdoor_closed: 3000110185026217935
       WallPlaster_cyan_top_left: -7216130753537982985
       Sign_food: -4443478041075641906
+      Poster_wanted: 7434005222291134750
       GrassGround_top_left: -461966769072123155
       Window_house_white: -4975200805825139187
       Railing_bridge_left: -8694157077359998002
@@ -9104,12 +9103,13 @@ TextureImporter:
       Tiles_cyan_white: -1130255005516789782
       Bridge_top_pole_left: -2175716430598600287
       WoodSupport_vertical_top: -7440700050349034850
+      Bushes_top_bg: -2468124672112292691
       Door_office_closed: 7363963313763902664
       Wall_plank_red_horizontal_top_right: -7332538663642228460
       Barrel_toxic: 6540150267397110041
       BoardFence_top: 5145799936581312213
       Roof_hay_top_center: 33408533428084001
-      Bushes_left: 8556087836613705275
+      Wall_concrete_grey_left: -1316722232655972009
       Smoke_5: -4176298113601619864
       WallPlaster_cyan_top_right: -5297203938320918270
   spritePackingTag: 
