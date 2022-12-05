@@ -13,16 +13,15 @@ public class Platform : MonoBehaviour
         effector = GetComponent<PlatformEffector2D>();
     }
 
-    
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s"))
+        if (Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKeyUp(KeyCode.S))
         {
             waitedTime = startWaitTime;
         }
 
-        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s"))
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             if (waitedTime<=0)
             {
@@ -35,7 +34,7 @@ public class Platform : MonoBehaviour
             }
         }
 
-        if (Input.GetKey("space"))
+        if (Input.GetKey(KeyCode.Space))
         {
             effector.rotationalOffset = 0;
         }

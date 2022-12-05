@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMoveJoystick : MonoBehaviour
 {
     private float horizontalMove = 0f;
-    private float verticalMove = 0f;
+    //private float verticalMove = 0f;
     public float runSpeedHorizontal = 2;
     public float runSpeed = 1.25f;
     public float jumpSpeed = 3;
